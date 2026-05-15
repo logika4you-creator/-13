@@ -1,41 +1,60 @@
+```html
 <!DOCTYPE html>
 <html lang="uk">
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Counter-Strike: Source</title>
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="style.css">
+    <title>
+        Counter-Strike: Source
+    </title>
+
+    <link rel="stylesheet"
+        href="style.css">
 </head>
 
 <body>
 
     <!-- HEADER -->
+
     <header>
 
-        <h2>Counter-Strike: Source</h2>
+        <div class="logo">
+            Counter-Strike: Source
+        </div>
 
-        <nav class="menu">
+        <nav>
 
             <ul class="menu-list">
 
                 <li>
-                    <a href="#home" class="menu-link">
-                        Головна
+                    <a href="#about"
+                        class="menu-link">
+                        Про гру
                     </a>
                 </li>
 
                 <li>
-                    <a href="#fps" class="menu-link">
-                        FPS
+                    <a href="#developers"
+                        class="menu-link">
+                        Розробники
                     </a>
                 </li>
 
                 <li>
-                    <a href="#gameplay" class="menu-link">
-                        Геймплей
+                    <a href="#features"
+                        class="menu-link">
+                        Особливості
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#gallery"
+                        class="menu-link">
+                        Галерея
                     </a>
                 </li>
 
@@ -45,108 +64,192 @@
 
     </header>
 
+    <!-- HERO -->
+
+    <section class="hero">
+
+        <h1>
+            Counter-Strike: Source
+        </h1>
+
+        <p>
+            Легендарний командний шутер
+            від Valve на Source Engine.
+        </p>
+
+        <a href="#about"
+            class="play-button">
+            Дізнатися більше
+        </a>
+
+    </section>
+
     <!-- MAIN -->
+
     <main>
 
-        <!-- HOME SECTION -->
-        <section id="home">
+        <!-- ABOUT -->
 
-            <h1>
-                Розробники всіх версій
-            </h1>
+        <section id="about">
 
-            <p>
-                Творці гри — Джесс Кліфф (Jess Cliffe)
-                та Мін Лі (Minh Le).
-                Вони створили Counter-Strike у 1999 році
-                як модифікацію для Half-Life.
-            </p>
-
-            <p>
-                Пізніше Valve придбала права на гру,
-                а Мін Лі та Джесс Кліфф приєдналися
-                до Valve для офіційного релізу.
-            </p>
-
-            <p>
-                Сучасні версії —
-                Counter-Strike: Global Offensive (CS:GO)
-                та Counter-Strike 2 (CS2)
-                також створені компанією Valve.
-            </p>
-
-            <!-- IMAGES -->
-            <div class="images">
-
-                <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/240/header.jpg"
-                    alt="Counter Strike Source"
-                    class="coffee-img">
-
-                <img src="https://wallpapercave.com/wp/wp2757874.jpg"
-                    alt="CS Source Gameplay"
-                    class="coffee-img">
-
-                <img src="https://images6.alphacoders.com/327/327310.jpg"
-                    alt="CS Source Map"
-                    class="coffee-img">
-
-            </div>
-
-        </section>
-
-        <!-- FPS SECTION -->
-        <section id="fps">
-
-            <h1>
-                FPS у Counter-Strike: Source
-            </h1>
-
-            <p>
-                FPS у версії Counter-Strike: Source
-                часто кращий та стабільніший,
-                ніж у CS 1.6.
-            </p>
-
-            <p>
-                Гра трохи схожа на CS:GO,
-                але має власну фізику
-                та атмосферу Source Engine.
-            </p>
-
-        </section>
-
-        <!-- GAMEPLAY SECTION -->
-        <section id="gameplay">
-
-            <h1>
-                Геймплей
-            </h1>
+            <h2>
+                Про гру
+            </h2>
 
             <p>
                 Counter-Strike: Source —
-                це командний шутер,
+                це популярний онлайн-шутер,
                 де терористи та спецназ
-                борються між собою
-                на різних картах.
+                борються між собою.
             </p>
 
-            <button class="order">
-                Грати зараз
-            </button>
+            <p>
+                Гра отримала нову графіку,
+                фізику та сучасний рушій.
+            </p>
+
+        </section>
+
+        <!-- DEVELOPERS -->
+
+        <section id="developers">
+
+            <h2>
+                Розробники
+            </h2>
+
+            <p>
+                Counter-Strike створили
+                Мін Лі та Джесс Кліфф
+                у 1999 році.
+            </p>
+
+            <p>
+                Пізніше Valve придбала
+                права на гру та продовжила
+                розвиток серії.
+            </p>
+
+        </section>
+
+        <!-- FEATURES -->
+
+        <section id="features">
+
+            <h2>
+                Особливості гри
+            </h2>
+
+            <ul class="features-list">
+
+                <li>
+                    Командний режим
+                </li>
+
+                <li>
+                    Велика кількість карт
+                </li>
+
+                <li>
+                    Покращена графіка
+                </li>
+
+                <li>
+                    Реалістична фізика
+                </li>
+
+                <li>
+                    Популярність у світі
+                </li>
+
+            </ul>
+
+        </section>
+
+        <!-- GALLERY -->
+
+        <section id="gallery">
+
+            <h2>
+                Галерея
+            </h2>
+
+            <div class="cards">
+
+                <div class="card">
+
+                    <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/240/header.jpg"
+                        alt="CS Source">
+
+                    <div class="card-content">
+
+                        <h3>
+                            CS Source
+                        </h3>
+
+                        <p>
+                            Офіційний постер гри.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="card">
+
+                    <img src="https://wallpapercave.com/wp/wp2757874.jpg"
+                        alt="Gameplay">
+
+                    <div class="card-content">
+
+                        <h3>
+                            Геймплей
+                        </h3>
+
+                        <p>
+                            Командні бої на картах.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <div class="card">
+
+                    <img src="https://images6.alphacoders.com/327/327310.jpg"
+                        alt="Map">
+
+                    <div class="card-content">
+
+                        <h3>
+                            Карти
+                        </h3>
+
+                        <p>
+                            Відомі карти Dust2.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
 
         </section>
 
     </main>
 
     <!-- FOOTER -->
-    <footer class="footer">
 
-        <h3>
-            Сайт створено Даниїлом Костюком у 2026 році.
-        </h3>
+    <footer>
+
+        <p>
+            Сайт створено Ковальчуком Марком © 2026
+        </p>
 
     </footer>
 
 </body>
 
 </html>
+```
