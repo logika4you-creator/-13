@@ -11,38 +11,6 @@ body {
     font-size: 20px;
 }
 
-/* HEADER */
-
-header {
-    padding: 18px 24px;
-
-    background: linear-gradient(
-        90deg,
-        rgba(212, 148, 255, 1) 0%,
-        rgba(214, 51, 108, 1) 27%,
-        rgba(253, 29, 29, 1) 50%,
-        rgba(253, 82, 43, 1) 68%,
-        rgba(252, 150, 62, 1) 91%,
-        rgba(252, 176, 69, 1) 100%
-    );
-
-    color: white;
-
-    display: flex;
-
-    justify-content: space-between;
-
-    align-items: center;
-
-    flex-wrap: wrap;
-}
-
-header h2 {
-    margin: 0;
-}
-
-/* MENU */
-
 .menu-list {
     list-style: none;
 
@@ -57,6 +25,28 @@ header h2 {
     align-items: center;
 
     gap: 10px;
+}
+
+header {
+    padding: 18px 24px;
+
+    color: white;
+
+    background: linear-gradient(
+        90deg,
+        rgba(212, 148, 255, 1) 0%,
+        rgba(214, 51, 108, 1) 27%,
+        rgba(253, 29, 29, 1) 50%,
+        rgba(253, 82, 43, 1) 68%,
+        rgba(252, 150, 62, 1) 91%,
+        rgba(252, 176, 69, 1) 100%
+    );
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
 
     flex-wrap: wrap;
 }
@@ -70,7 +60,9 @@ header h2 {
 
     border-radius: 6px;
 
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.06);
+
+    margin-left: 8px;
 
     transition: 0.3s;
 }
@@ -81,44 +73,24 @@ header h2 {
     color: #d6336c;
 }
 
-/* MAIN */
-
 main {
-    padding: 25px;
+    padding: 20px;
 }
-
-/* SECTIONS */
 
 section {
-    background: white;
-
     margin-bottom: 30px;
-
-    padding: 25px;
-
-    border-radius: 16px;
-
-    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
-
-section h1 {
-    color: #d6336c;
-}
-
-/* IMAGES */
 
 .coffee-img {
     width: 30%;
 
-    min-width: 250px;
+    min-width: 220px;
 
     max-width: 400px;
 
     border-radius: 12px;
 
-    margin-top: 15px;
-
-    margin-right: 10px;
+    margin: 10px;
 
     transition: 0.3s;
 }
@@ -126,14 +98,6 @@ section h1 {
 .coffee-img:hover {
     transform: scale(1.03);
 }
-
-/* LIST */
-
-ul {
-    line-height: 1.8;
-}
-
-/* BUTTON */
 
 .order {
     margin-top: 12px;
@@ -144,11 +108,7 @@ ul {
 
     border-radius: 10px;
 
-    background: linear-gradient(
-        90deg,
-        #d6336c,
-        #fd7e14
-    );
+    background: #6b4f4f;
 
     color: white;
 
@@ -163,30 +123,17 @@ ul {
     transform: scale(1.05);
 }
 
-/* FOOTER */
-
 .footer {
     padding: 20px;
+
+    height: 60px;
 
     background: #f0e6e0;
 
     text-align: center;
 }
 
-/* RESPONSIVE */
-
-@media(max-width: 768px) {
-
-    header {
-        flex-direction: column;
-
-        gap: 15px;
-    }
-
-    .coffee-img {
-        width: 100%;
-
-        margin-right: 0;
-    }
+ul {
+    line-height: 1.8;
 }
 ```
